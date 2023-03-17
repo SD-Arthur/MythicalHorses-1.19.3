@@ -23,6 +23,18 @@ public class ModItems {
     public static final RegistryObject<Item> HEART_OF_DARKNESS = ITEMS.register("heart_of_darkness",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ESSENCE_OF_UNDEAD = ITEMS.register("essence_of_undead",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ESSENCE_OF_FIRE = ITEMS.register("essence_of_fire",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ESSENCE_OF_DARKNESS = ITEMS.register("essence_of_darkness",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ESSENCE_OF_LIGHT = ITEMS.register("essence_of_light",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

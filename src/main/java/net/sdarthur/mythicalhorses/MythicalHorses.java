@@ -47,6 +47,10 @@ public class MythicalHorses {
             event.accept(ModItems.HEART_OF_UNDEAD);
             event.accept(ModItems.HEART_OF_FIRE);
             event.accept(ModItems.HEART_OF_DARKNESS);
+            event.accept(ModItems.ESSENCE_OF_UNDEAD);
+            event.accept(ModItems.ESSENCE_OF_FIRE);
+            event.accept(ModItems.ESSENCE_OF_DARKNESS);
+            event.accept(ModItems.ESSENCE_OF_LIGHT);
         }
     }
 

@@ -3,6 +3,10 @@
   "item.mythicalhorses.heart_of_undead": "Heart of Undead",
   "item.mythicalhorses.heart_of_fire": "Heart of Fire",
   "item.mythicalhorses.heart_of_darkness": "Heart of Darkness",
+  "item.mythicalhorses.essence_of_undead": "Essence of Undead",
+  "item.mythicalhorses.essence_of_fire": "Essence of Fire",
+  "item.mythicalhorses.essence_of_darkness": "Essence of Darkness",
+  "item.mythicalhorses.essence_of_light": "Essence of Light",
 
   "creativemodetab.mythical_tab": "Mythical Horses"
 }
