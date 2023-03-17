@@ -44,6 +44,9 @@ public class MythicalHorses {
 
         if(event.getTab() == ModCreativeModeTabs.MYTHICAL_TAB) {
             event.accept(ModItems.PET_AMULET);
+            event.accept(ModItems.HEART_OF_UNDEAD);
+            event.accept(ModItems.HEART_OF_FIRE);
+            event.accept(ModItems.HEART_OF_DARKNESS);
         }
     }
 
