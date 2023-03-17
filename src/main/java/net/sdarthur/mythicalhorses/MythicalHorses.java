@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.sdarthur.mythicalhorses.item.ModCreativeModeTabs;
 import net.sdarthur.mythicalhorses.item.ModItems;
 import org.slf4j.Logger;
 
@@ -38,6 +39,10 @@ public class MythicalHorses {
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.PET_AMULET);
+        }
+
+        if(event.getTab() == ModCreativeModeTabs.MYTHICAL_TAB) {
             event.accept(ModItems.PET_AMULET);
         }
     }
